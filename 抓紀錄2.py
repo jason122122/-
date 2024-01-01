@@ -4,8 +4,6 @@ with open("ans.txt",mode="r",encoding="utf-8") as file:
 cor=data.split("isCorrect")
 usan=data.split("userAnswer")
 ans=data.split(f"answer\\\":")
-print(len(ans))
-print(ans[103])
 corlist=[]
 usanlist=[]
 anslist=[]
